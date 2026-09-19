@@ -1,0 +1,196 @@
+{
+  "last-train.md": {
+    "timeline_continuous": true,
+    "segments": [
+      [
+        [
+          0.0,
+          5.0
+        ],
+        [
+          5.0,
+          9.0
+        ],
+        [
+          9.0,
+          15.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          7.0
+        ],
+        [
+          7.0,
+          10.5
+        ],
+        [
+          10.5,
+          15.0
+        ]
+      ]
+    ],
+    "total_seconds": 30,
+    "han_characters": 2760,
+    "dialogues": [
+      {
+        "segment": 1,
+        "window": [
+          2.8,
+          3.6
+        ],
+        "phrase": "Dad.",
+        "unit": "English word",
+        "count": 1,
+        "units_per_second": 1.25
+      },
+      {
+        "segment": 1,
+        "window": [
+          6,
+          6.8
+        ],
+        "phrase": "Anna?",
+        "unit": "English word",
+        "count": 1,
+        "units_per_second": 1.25
+      },
+      {
+        "segment": 1,
+        "window": [
+          9.8,
+          12.4
+        ],
+        "phrase": "I almost stayed on.",
+        "unit": "English word",
+        "count": 4,
+        "units_per_second": 1.54
+      },
+      {
+        "segment": 2,
+        "window": [
+          3.2,
+          6.4
+        ],
+        "phrase": "Can I walk you home?",
+        "unit": "English word",
+        "count": 5,
+        "units_per_second": 1.56
+      },
+      {
+        "segment": 2,
+        "window": [
+          7.8,
+          9.6
+        ],
+        "phrase": "I'd like that.",
+        "unit": "English word",
+        "count": 3,
+        "units_per_second": 1.67
+      }
+    ]
+  },
+  "luggage-chase.md": {
+    "timeline_continuous": true,
+    "segments": [
+      [
+        [
+          0.0,
+          4.0
+        ],
+        [
+          4.0,
+          7.0
+        ],
+        [
+          7.0,
+          10.0
+        ],
+        [
+          10.0,
+          12.0
+        ],
+        [
+          12.0,
+          15.0
+        ]
+      ]
+    ],
+    "total_seconds": 15,
+    "han_characters": 2454,
+    "dialogues": [
+      {
+        "segment": 1,
+        "window": [
+          4.9,
+          5.9
+        ],
+        "phrase": "Hey! Wait!",
+        "unit": "English word",
+        "count": 2,
+        "units_per_second": 2.0
+      }
+    ]
+  },
+  "override.md": {
+    "timeline_continuous": true,
+    "segments": [
+      [
+        [
+          0.0,
+          3.5
+        ],
+        [
+          3.5,
+          7.0
+        ],
+        [
+          7.0,
+          11.5
+        ],
+        [
+          11.5,
+          15.0
+        ]
+      ]
+    ],
+    "total_seconds": 15,
+    "han_characters": 2125,
+    "dialogues": [
+      {
+        "segment": 1,
+        "window": [
+          1.2,
+          2.3
+        ],
+        "phrase": "回家吧。",
+        "unit": "Chinese character",
+        "count": 3,
+        "units_per_second": 2.73
+      },
+      {
+        "segment": 1,
+        "window": [
+          3.9,
+          6.5
+        ],
+        "phrase": "我想再待一会儿。",
+        "unit": "Chinese character",
+        "count": 7,
+        "units_per_second": 2.69
+      },
+      {
+        "segment": 1,
+        "window": [
+          9.1,
+          10.8
+        ],
+        "phrase": "好，我陪你。",
+        "unit": "Chinese character",
+        "count": 4,
+        "units_per_second": 2.35
+      }
+    ]
+  }
+}

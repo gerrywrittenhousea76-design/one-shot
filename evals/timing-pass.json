@@ -1,0 +1,8 @@
+{
+  "duration": 15,
+  "segments": [{"start": 0, "end": 4}, {"start": 4, "end": 9}, {"start": 9, "end": 15}],
+  "speech": [
+    {"speaker": "FATHER", "start": 1, "end": 3, "text": "I kept it.", "words_per_second": 1.8},
+    {"speaker": "DAUGHTER", "start": 5, "end": 7, "text": "You waited?", "words_per_second": 1.8}
+  ]
+}

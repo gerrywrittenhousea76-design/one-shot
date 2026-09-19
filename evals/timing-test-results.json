@@ -1,0 +1,56 @@
+[
+  {
+    "case": "valid contiguous timeline",
+    "passed": true,
+    "detected": []
+  },
+  {
+    "case": "detect missing second",
+    "passed": true,
+    "detected": [
+      "coverage"
+    ]
+  },
+  {
+    "case": "detect truncated ending",
+    "passed": true,
+    "detected": [
+      "total"
+    ]
+  },
+  {
+    "case": "detect overloaded quiet dialogue",
+    "passed": true,
+    "detected": [
+      "speech_budget"
+    ]
+  },
+  {
+    "case": "detect undeclared overlapping speakers",
+    "passed": true,
+    "detected": [
+      "speech_overlap"
+    ]
+  },
+  {
+    "case": "allow deliberate two-speaker overlap",
+    "passed": true,
+    "detected": []
+  },
+  {
+    "case": "reject simultaneous same-speaker lines",
+    "passed": true,
+    "detected": [
+      "speech_overlap"
+    ]
+  },
+  {
+    "case": "Chinese requires manual pace review",
+    "passed": true,
+    "detected": []
+  },
+  {
+    "case": "reject invalid nonfinite duration",
+    "passed": true
+  }
+]
