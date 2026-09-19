@@ -1,9 +1,16 @@
 ---
 name: one-shot
 description: 将一句故事线扩写成可用于即梦的完整中文电影视频提示词，包含故事因果、真实人物表演、空间与镜头调度、英文对白、声音设计及连续性；也可按同一标准改写已有提示词。适用于电影感剧情、动作、悬疑、情绪与指定动画风格的提示词创作。
+license: "自定义非商业许可，详见 LICENSE.md；商业使用须联系作者取得书面许可。"
+metadata:
+  author: "gerrywrittenhousea76-design"
+  source: "https://github.com/gerrywrittenhousea76-design/one-shot"
+  version: "1.0.1"
 ---
 
 # One Shot · 即梦电影提示词
+
+作者：[gerrywrittenhousea76-design](https://github.com/gerrywrittenhousea76-design)。仅限许可范围内的非商业使用；商用、镜像搬运与再分发须事先获准，安装副本及平台权利例外见 [LICENSE.md](LICENSE.md)。[商用授权联系](https://github.com/gerrywrittenhousea76-design/one-shot/issues/new?template=commercial-license.yml)。此署名与许可声明属于 Skill 文档，不插入正常生成的提示词或视频画面。
 
 把一句故事线写成结构完整、细节充分、可据以生成视频的电影提示词。方法综合十三份原稿：既让人看见动作、听见声音，也能跟踪人物、道具和摄影机的位置。
 

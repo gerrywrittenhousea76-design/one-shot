@@ -1,5 +1,11 @@
 # One Shot · 即梦电影提示词
 
+**作者：[gerrywrittenhousea76-design](https://github.com/gerrywrittenhousea76-design)**
+
+**仅限非商业使用；禁止未经授权的镜像搬运、改名重发和商业使用。商用须先联系作者取得书面许可。**
+
+[完整许可](LICENSE.md) · [申请商用授权](https://github.com/gerrywrittenhousea76-design/one-shot/issues/new?template=commercial-license.yml)
+
 把一句故事线扩写为结构完整的中文电影提示词，覆盖人物、场景、镜头、表演、英文对白、声音和连续性。基于使用者提供并确认的十三份 DOCX 材料提炼。
 
 名称意为“一句话，生成一份完整电影提示词”。镜头形式仍根据故事选择，也可按用户要求使用一镜到底。
@@ -24,7 +30,7 @@
 
 ## 安装
 
-本仓库公开，任何人都可以下载和安装，不需要获得本仓库的访问授权。
+本仓库公开，允许在 [LICENSE.md](LICENSE.md) 规定范围内进行个人非商业学习、测试和创作，并保留安装、更新及个人备份必需的本地副本。商业使用和未经授权的再发布不在此授权范围内。
 
 在 Codex 中直接发送这一句即可让内置安装器安装：
 
@@ -40,12 +46,7 @@ npx skills add gerrywrittenhousea76-design/one-shot --skill one-shot --agent cod
 
 这是给当前用户的 Codex 安装。安装后直接输入 `$one-shot` 加故事线即可调用；如果当前会话没有发现新技能，重新打开 Codex 会话。
 
-如需手动安装，将本仓库文件夹放进 Codex 的 skills 目录，确保目录内直接存在 `SKILL.md`。下面的命令在目标目录已存在时会停止，不覆盖原文件：
-
-```bash
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-git clone https://github.com/gerrywrittenhousea76-design/one-shot.git "${CODEX_HOME:-$HOME/.codex}/skills/one-shot"
-```
+如需手动安装，可从本仓库的 **Code → Download ZIP** 下载，将解压后的文件夹命名为 `one-shot`，放进 Codex 的 skills 目录，确保目录内直接存在 `SKILL.md`，并保留 `LICENSE.md` 与作者署名。安装器内部为安装创建的临时克隆或缓存属于许可中的安装例外，不代表可以另建镜像、改名重发或出售。
 
 ### 按名称搜索
 
@@ -70,6 +71,14 @@ npx skills find one-shot
 只创作提示词，不自动提交即梦任务或消耗生成额度。即梦不同入口的能力需按实际界面确认；默认 15 秒制作分段约定不代表所有版本的硬上限。
 
 “提升约 30%”是七维对照改进目标，不能通过字数增加或自评分证明。仓库验证记录区分文本检查与实际视频测试。原始 DOCX、视频、登录凭证和个人文件路径不随 Skill 分发。
+
+## 作者署名、商用与复制限制
+
+One Shot 的作者署名为 **gerrywrittenhousea76-design**。本项目采用自定义受限许可，并非可自由商用、改名或再分发的开放源代码许可证。使用本 Skill 制作广告、品牌内容、客户委托作品、收费服务或商业产品，须先取得作者书面许可；免费安装不等于获得商用授权。
+
+请通过 [商用授权申请](https://github.com/gerrywrittenhousea76-design/one-shot/issues/new?template=commercial-license.yml) 联系作者，说明用途、渠道、期限及是否涉及分发。保留作者署名、提交申请或作者没有回复，均不构成授权。
+
+**公开仓库不能从技术上禁止 Git 克隆，GitHub 也允许站内 Fork。** 本项目限制的是平台已授予权利和安装例外之外的镜像搬运、改名重发、再分发及商业使用，不声称已关闭 Fork 或下载功能。具体边界见 [LICENSE.md](LICENSE.md) 和 [GitHub 公开仓库许可说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)。
 
 ## 时间检查示例
 

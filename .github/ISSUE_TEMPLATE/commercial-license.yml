@@ -1,0 +1,38 @@
+name: 商用授权申请
+description: 联系 One Shot 作者申请商业使用、转载或分发授权。
+title: "[商用授权] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        作者：gerrywrittenhousea76-design。
+        本申请不是授权；请在取得作者明确书面许可后开展商业使用。
+        Issue 内容公开，请勿填写密码、密钥、客户机密或其他不希望公开的资料。
+  - type: input
+    id: applicant
+    attributes:
+      label: 申请人或组织
+      description: 可使用公开名称；作者可以直接在此 Issue 回复你的 GitHub 账号。
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: 拟使用方式
+      description: 说明是广告、品牌内容、客户视频、收费服务、产品集成，还是其他用途。
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 发布范围与期限
+      description: 说明发布渠道、预计作品数量、使用期限，以及是否需要复制或分发 Skill 文件。
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: 确认
+      options:
+        - label: 我理解提交申请不等于获得授权，商用需取得作者明确书面许可。
+          required: true
