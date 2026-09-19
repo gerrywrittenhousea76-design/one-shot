@@ -1,19 +1,21 @@
-# 即梦电影提示词
+# One Shot · 即梦电影提示词
 
 把一句故事线扩写为结构完整的中文电影提示词，覆盖人物、场景、镜头、表演、英文对白、声音和连续性。基于使用者提供并确认的十三份 DOCX 材料提炼。
+
+名称意为“一句话，生成一份完整电影提示词”。镜头形式仍根据故事选择，也可按用户要求使用一镜到底。
 
 ## 使用
 
 安装后输入：
 
 ```text
-使用 $jimeng-cinematic-prompt：一位退休列车司机在末班车站台遇见多年未见的女儿。
+使用 $one-shot：一位退休列车司机在末班车站台遇见多年未见的女儿。
 ```
 
 也可以明确覆盖默认值：
 
 ```text
-使用 $jimeng-cinematic-prompt：15 秒，日本父亲在学校门口接到不愿回家的女儿。全部中文对白，写实电影，多镜头。
+使用 $one-shot：15 秒，日本父亲在学校门口接到不愿回家的女儿。全部中文对白，写实电影，多镜头。
 ```
 
 默认正文中文、对白英文、人物欧美背景。Skill 根据故事决定时长和镜头形式，允许补足动机、冲突和结局，保留故事核心。用户指定的国家、语言、风格、时长等优先。没有参考图也能生成完整提示词。
@@ -26,7 +28,7 @@
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-git clone https://github.com/gerrywrittenhousea76-design/jimeng-cinematic-prompt.git "${CODEX_HOME:-$HOME/.codex}/skills/jimeng-cinematic-prompt"
+git clone https://github.com/gerrywrittenhousea76-design/one-shot.git "${CODEX_HOME:-$HOME/.codex}/skills/one-shot"
 ```
 
 私有仓库需要先登录有权访问的 GitHub 账户。新建会话后可通过技能名调用。

@@ -1,4 +1,4 @@
 interface:
-  display_name: "即梦电影提示词"
+  display_name: "One Shot"
   short_description: "把一句故事线扩写为具有完整分镜、真实表演与声音设计的即梦电影提示词"
-  default_prompt: "使用 $jimeng-cinematic-prompt，把这句故事线扩写成完整中文电影提示词：一位退休列车司机在末班车站台遇见多年未见的女儿。"
+  default_prompt: "使用 $one-shot，把这句故事线扩写成完整中文电影提示词：一位退休列车司机在末班车站台遇见多年未见的女儿。"
