@@ -34,6 +34,12 @@ python3 scripts/audit_timing.py evals/timing-pass.json
 
 工具只检查提供的 JSON 时间表。提示词与时间表是否一致、画外人物位置、机位可达性、表演和成片质量仍需审查。
 
+## 公开安装验证
+
+仓库已改为公开，未携带身份验证的 GitHub API 请求返回 200，并确认 `private=false`。Codex 内置 Skill Installer 在移除环境中的 GitHub Token 后，使用直接下载模式成功安装到独立测试目录。Skills CLI 1.7.0 也通过 `skills add gerrywrittenhousea76-design/one-shot --skill one-shot --agent codex --copy --yes` 完成项目范围安装。两种安装所得的技能主指令、参考指南、示例和脚本均与交付版一致。
+
+`skills find one-shot` 已实际执行，当时返回的通用搜索结果尚未出现本仓库。不能声称已经实现仅凭名称在所有目录中搜索安装；使用明确仓库来源的安装方式已经验证可用。目录收录与排名由各平台处理。
+
 ## 尚未验证
 
 [测试用例集](cases.json) 是后续回归清单，未全部执行，不计为七项通过。未实测不同即梦入口的输入上限、连续段人物保持、口型、真实物理表现或长镜头成功率。没有建立经过成对评分的原稿基线，因此不能声称已量化提升 30%。本版已完成的是十三篇方法提炼、原稿明确矛盾修正、三类新故事试用和可复核的文本时间检查。

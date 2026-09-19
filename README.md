@@ -24,14 +24,38 @@
 
 ## 安装
 
-将本仓库文件夹放进 Codex 的 skills 目录，确保目录内直接存在 `SKILL.md`。也可在终端执行以下命令；目标目录已存在时 `git clone` 会停止，不覆盖原文件：
+本仓库公开，任何人都可以下载和安装，不需要获得本仓库的访问授权。
+
+在 Codex 中直接发送这一句即可让内置安装器安装：
+
+```text
+使用 $skill-installer，从 https://github.com/gerrywrittenhousea76-design/one-shot 安装 one-shot，技能位于仓库根目录。
+```
+
+也可使用 [Skills CLI](https://github.com/vercel-labs/skills) 在终端安装；需要 Node.js / npm：
+
+```bash
+npx skills add gerrywrittenhousea76-design/one-shot --skill one-shot --agent codex -g
+```
+
+这是给当前用户的 Codex 安装。安装后直接输入 `$one-shot` 加故事线即可调用；如果当前会话没有发现新技能，重新打开 Codex 会话。
+
+如需手动安装，将本仓库文件夹放进 Codex 的 skills 目录，确保目录内直接存在 `SKILL.md`。下面的命令在目标目录已存在时会停止，不覆盖原文件：
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 git clone https://github.com/gerrywrittenhousea76-design/one-shot.git "${CODEX_HOME:-$HOME/.codex}/skills/one-shot"
 ```
 
-私有仓库需要先登录有权访问的 GitHub 账户。新建会话后可通过技能名调用。
+### 按名称搜索
+
+在 Skills 社区目录中搜索：
+
+```bash
+npx skills find one-shot
+```
+
+认准来源 `gerrywrittenhousea76-design/one-shot`，避免安装同名技能。社区目录的收录和搜索更新可能有延迟；未搜到时使用上面的安装命令即可，不需要等待收录。按 [Skills 的收录说明](https://skills.sh/docs/faq)，目录通过实际安装数据发现技能；仓库公开不代表已经进入 Codex 官方内置目录。
 
 ## 内容
 
