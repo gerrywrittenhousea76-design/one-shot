@@ -6,7 +6,7 @@
 
 [完整许可](LICENSE.md) · [申请商用授权](https://github.com/gerrywrittenhousea76-design/one-shot/issues/new?template=commercial-license.yml)
 
-把一句故事线扩写为结构完整的中文电影提示词，覆盖人物、场景、镜头、表演、英文对白、声音和连续性。基于使用者提供并确认的十三份 DOCX 材料提炼。
+把一句故事线扩写为结构完整的中文电影提示词，覆盖人物、场景、镜头、表演、英文对白、声音和连续性。
 
 名称意为“一句话，生成一份完整电影提示词”。镜头形式仍根据故事选择，也可按用户要求使用一镜到底。
 
@@ -61,7 +61,6 @@ npx skills find one-shot
 ## 内容
 
 - [主指令](SKILL.md)：默认行为、工作流程与资源选择。
-- [方法来源](references/source-distillation.md)：十三篇的具体贡献、适用范围和修正点。
 - [情绪对白示例](examples/last-train.md)、[动作长镜头示例](examples/luggage-chase.md)、[厚涂示例](examples/painter.md)、[国家与语言覆盖示例](examples/override.md)。
 - [质量检查](references/quality-gate.md) 与 [验证记录](evals/validation-report.md)。
 - `scripts/audit_timing.py`：可选的本地时间表检查，仅依赖 Python 3 标准库。
@@ -70,7 +69,7 @@ npx skills find one-shot
 
 只创作提示词，不自动提交即梦任务或消耗生成额度。即梦不同入口的能力需按实际界面确认；默认 15 秒制作分段约定不代表所有版本的硬上限。
 
-“提升约 30%”是七维对照改进目标，不能通过字数增加或自评分证明。仓库验证记录区分文本检查与实际视频测试。原始 DOCX、视频、登录凭证和个人文件路径不随 Skill 分发。
+“提升约 30%”是七维对照改进目标，不能通过字数增加或自评分证明。仓库验证记录区分文本检查与实际视频测试。
 
 ## 作者署名、商用与复制限制
 
